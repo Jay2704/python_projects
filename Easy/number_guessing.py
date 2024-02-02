@@ -7,7 +7,7 @@ lower = int(input("Enter low : "))
 higher = int(input("Enter High : "))
 
 if higher <= lower:
-    print("Enter Valid range...")
+    print("Enter Valid range of Numbers...")
     exit()
 
 number = random.randint(lower, higher)
